@@ -26,22 +26,25 @@ a. Τα committed instructions είναι στην τάξη των 100.000.000. 
 >	L2 cache overall accesses = 712341 (system.l2.overall\_accesses::total).   
 >	Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=200996 + system.l2.overall\_hits::total=511345 = 712341
 
-> hmmer: commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )
+> **hmmer:** commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )
 > 	L1 dcache block replacements = 65718 (system.cpu.dcache.replacements)
 >	L2 cache overall accesses = 70563 (system.l2.overall\_accesses::total). 
 >	Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=5487 + system.l2.overall\_hits::total=65076 = 70563
 			 
-> libm: *commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )
-			*L1 dcache block replacements = 1486955 (system.cpu.dcache.replacements)
-			*L2 cache overall accesses = 1488538 (system.l2.overall\_accesses::total). Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=1488455 + system.l2.overall\_hits::total=83 = 1488538
+> **libm:** commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )  
+>	L1 dcache block replacements = 1486955 (system.cpu.dcache.replacements)  
+>	L2 cache overall accesses = 1488538 (system.l2.overall\_accesses::total).   
+>	Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=1488455 + system.l2.overall\_hits::total=83 = 1488538
 			
-> mcf: *commited instructions = 100000001  (sim\_insts or system.cpu.committedInsts )
-		   *L1 dcache block replacements = 54452 (system.cpu.dcache.replacements)
-		   *L2 cache overall accesses = 724390 (system.l2.overall\_accesses::total). Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=39875 + system.l2.overall\_hits::total=684515 = 724390
+> **mcf:**   commited instructions = 100000001  (sim\_insts or system.cpu.committedInsts )  
+>        L1 dcache block replacements = 54452 (system.cpu.dcache.replacements)  
+>	 L2 cache overall accesses = 724390 (system.l2.overall\_accesses::total).   
+>	 Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=39875 + system.l2.overall\_hits::total=684515 = 724390
 		   
-> sjeng: *commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )
-			 *L1 dcache block replacements = 5262377 (system.cpu.dcache.replacements)
-			 *L2 cache overall accesses = 5264051 (system.l2.overall\_accesses::total). Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=5263903 + system.l2.overall\_hits::total=148 = 5264051
+> **sjeng:** commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )  
+>	 L1 dcache block replacements = 5262377 (system.cpu.dcache.replacements)  
+>	 L2 cache overall accesses = 5264051 (system.l2.overall\_accesses::total).   
+>	 Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=5263903 + system.l2.overall\_hits::total=148 = 5264051
 		 
 
 
