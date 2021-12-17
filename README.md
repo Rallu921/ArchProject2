@@ -12,7 +12,7 @@ a. Τα committed instructions είναι στην τάξη των 100.000.000. 
 
 
 > system.cpu.committedInsts                   100000001                       # Number of instructions committed  
-Τα commited instructions δεν είναι ίσα με τα executed instructions, γιατί υπάρχουν και misses.
+
 
 > system.cpu.dcache.replacements                 710569                       # number of replacements  
 >    
