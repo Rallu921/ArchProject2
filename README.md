@@ -23,27 +23,27 @@ a. Τα committed instructions είναι στην τάξη των 100.000.000. 
 
 > **bzip:** commited instructions = 100000001 (sim\_insts or system.cpu.committedInsts )  
 > 	L1 dcache block replacements = 710569 (system.cpu.dcache.replacements)  
->	L2 cache overall accesses = 712341 (system.l2.overall\_accesses::total).   
+>	L2 cache overall accesses = 712341 (system.l2.overall\_accesses::total)     
 >	Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=200996 + system.l2.overall\_hits::total=511345 = 712341
 
 > **hmmer:** commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )
 > 	L1 dcache block replacements = 65718 (system.cpu.dcache.replacements)
->	L2 cache overall accesses = 70563 (system.l2.overall\_accesses::total). 
+>	L2 cache overall accesses = 70563 (system.l2.overall\_accesses::total)   
 >	Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=5487 + system.l2.overall\_hits::total=65076 = 70563
 			 
 > **libm:** commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )  
 >	L1 dcache block replacements = 1486955 (system.cpu.dcache.replacements)  
->	L2 cache overall accesses = 1488538 (system.l2.overall\_accesses::total).   
+>	L2 cache overall accesses = 1488538 (system.l2.overall\_accesses::total)     
 >	Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=1488455 + system.l2.overall\_hits::total=83 = 1488538
 			
 > **mcf:**   commited instructions = 100000001  (sim\_insts or system.cpu.committedInsts )  
 >        L1 dcache block replacements = 54452 (system.cpu.dcache.replacements)  
->	 L2 cache overall accesses = 724390 (system.l2.overall\_accesses::total).   
+>	 L2 cache overall accesses = 724390 (system.l2.overall\_accesses::total)   
 >	 Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=39875 + system.l2.overall\_hits::total=684515 = 724390
 		   
 > **sjeng:** commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )  
 >	 L1 dcache block replacements = 5262377 (system.cpu.dcache.replacements)  
->	 L2 cache overall accesses = 5264051 (system.l2.overall\_accesses::total).   
+>	 L2 cache overall accesses = 5264051 (system.l2.overall\_accesses::total)     
 >	 Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=5263903 + system.l2.overall\_hits::total=148 = 5264051
 		 
 
@@ -54,35 +54,35 @@ c. ???
 2. 
 
 **default GHz:**  
-> **bzip:**  Simulation time = 0.083982 (sim_seconds)
-	     	CPI = 1.679650 (system.cpu.cpi)
-	     	L1 dcache overall miss rate = 0.014798 (system.cpu.dcache.overall\_miss\_rate::total)
-		L1 icache overall miss rate = 0.000077 (system.cpu.icache.overall\_miss\_rate::total)
-		L2 cache  overall miss rate = 0.282163 (system.l2.overall\_miss\_rate::total)
+> **bzip:**  Simulation time = 0.083982 (sim_seconds)  
+>	     	CPI = 1.679650 (system.cpu.cpi)  
+>	     	L1 dcache overall miss rate = 0.014798 (system.cpu.dcache.overall\_miss\_rate::total)  
+>		L1 icache overall miss rate = 0.000077 (system.cpu.icache.overall\_miss\_rate::total)  
+>		L2 cache  overall miss rate = 0.282163 (system.l2.overall\_miss\_rate::total)  
 			
-> **hmmer:** Simulation time = 0.059396 (sim_seconds)
-		CPI = 1.187917 (system.cpu.cpi)
-             	L1 dcache overall miss rate = 0.001637 (system.cpu.dcache.overall\_miss\_rate::total)
-             	L1 icache overall miss rate = 0.000221 (system.cpu.icache.overall\_miss\_rate::total)
-             	L2 cache  overall miss rate = 0.077760 (system.l2.overall\_miss\_rate::total)
+> **hmmer:** Simulation time = 0.059396 (sim_seconds)  
+>		CPI = 1.187917 (system.cpu.cpi)  
+>            	L1 dcache overall miss rate = 0.001637 (system.cpu.dcache.overall\_miss\_rate::total)  
+>             	L1 icache overall miss rate = 0.000221 (system.cpu.icache.overall\_miss\_rate::total)  
+>             	L2 cache  overall miss rate = 0.077760 (system.l2.overall\_miss\_rate::total)  
 			 
-> **libm:**  Simulation time = 0.174671 (sim\_seconds)
-		CPI = 3.493415 (system.cpu.cpi)
-             	L1 dcache overall miss rate = 0.060972 (system.cpu.dcache.overall\_miss\_rate::total)
-             	L1 icache overall miss rate = 0.000094 (system.cpu.icache.overall\_miss\_rate::total)
-             	L2 cache  overall miss rate = 0.999944 (system.l2.overall\_miss\_rate::total)
+> **libm:**  Simulation time = 0.174671 (sim\_seconds)  
+>		CPI = 3.493415 (system.cpu.cpi)  
+>             	L1 dcache overall miss rate = 0.060972 (system.cpu.dcache.overall\_miss\_rate::total)  
+>             	L1 icache overall miss rate = 0.000094 (system.cpu.icache.overall\_miss\_rate::total)  
+>             	L2 cache  overall miss rate = 0.999944 (system.l2.overall\_miss\_rate::total)  
 			
-> **mcf:**   Simulation time = 0.064955 (sim\_seconds)
-		CPI = 1.299095 (system.cpu.cpi)
-             	L1 dcache overall miss rate = 0.002108 (system.cpu.dcache.overall\_miss\_rate::total)
-             	L1 icache overall miss rate = 0.023612 (system.cpu.icache.overall\_miss\_rate::total)
-             	L2 cache  overall miss rate = 0.055046 (system.l2.overall\_miss\_rate::total)
+> **mcf:**   Simulation time = 0.064955 (sim\_seconds)  
+>		CPI = 1.299095 (system.cpu.cpi)  
+>             	L1 dcache overall miss rate = 0.002108 (system.cpu.dcache.overall\_miss\_rate::total)  
+>             	L1 icache overall miss rate = 0.023612 (system.cpu.icache.overall\_miss\_rate::total)  
+>             	L2 cache  overall miss rate = 0.055046 (system.l2.overall\_miss\_rate::total)  
 			 
-> **sjeng:** Simulation time = 0.513528 (sim\_seconds)
-		CPI = 10.270554 (system.cpu.cpi)
-             	L1 dcache overall miss rate = 0.121831 (system.cpu.dcache.overall\_miss\_rate::total)
-             	L1 icache overall miss rate = 0.000020 (system.cpu.icache.overall\_miss\_rate::total)
-             	L2 cache  overall miss rate = 0.999972 (system.l2.overall\_miss\_rate::total)
+> **sjeng:** Simulation time = 0.513528 (sim\_seconds)  
+>		CPI = 10.270554 (system.cpu.cpi)  
+>             	L1 dcache overall miss rate = 0.121831 (system.cpu.dcache.overall\_miss\_rate::total)  
+>             	L1 icache overall miss rate = 0.000020 (system.cpu.icache.overall\_miss\_rate::total)  
+>             	L2 cache  overall miss rate = 0.999972 (system.l2.overall\_miss\_rate::total)  
 
 
 Από το spec\_results\_default/**specbzip**/stats.txt βρήκαμε:
