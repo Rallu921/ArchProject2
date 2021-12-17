@@ -21,13 +21,15 @@ a. Τα committed instructions είναι στην τάξη των 100.000.000. 
 
 **default GHz:**   
 
-> bzip: *commited instructions = 100000001 (sim\_insts or system.cpu.committedInsts )
-			*L1 dcache block replacements = 710569 (system.cpu.dcache.replacements)
-			*L2 cache overall accesses = 712341 (system.l2.overall\_accesses::total). Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=200996 + system.l2.overall\_hits::total=511345 = 712341
+> **bzip:** commited instructions = 100000001 (sim\_insts or system.cpu.committedInsts )
+> 	L1 dcache block replacements = 710569 (system.cpu.dcache.replacements)
+>	L2 cache overall accesses = 712341 (system.l2.overall\_accesses::total). 
+>	Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=200996 + system.l2.overall\_hits::total=511345 = 712341
 
-> hmmer: *commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )
-			 *L1 dcache block replacements = 65718 (system.cpu.dcache.replacements)
-			 *L2 cache overall accesses = 70563 (system.l2.overall\_accesses::total). Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=5487 + system.l2.overall\_hits::total=65076 = 70563
+> hmmer: commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )
+> 	L1 dcache block replacements = 65718 (system.cpu.dcache.replacements)
+>	L2 cache overall accesses = 70563 (system.l2.overall\_accesses::total). 
+>	Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=5487 + system.l2.overall\_hits::total=65076 = 70563
 			 
 > libm: *commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )
 			*L1 dcache block replacements = 1486955 (system.cpu.dcache.replacements)
