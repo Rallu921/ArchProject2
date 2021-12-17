@@ -11,12 +11,7 @@
 a. Τα committed instructions είναι στην τάξη των 100.000.000. Δεν μπορέσαμε να βρούμε τα  executed instructions, αλλά περιμένουμε ότι θα είναι λιγότερα από τα commited, καθώς με βάση τη θεωρία ο επεξεργαστής εκτελεί speculative instructions χωρίς να είναι σίγουρο ότι αυτές όντως θα εκτελεστούν. 
 
 
-> system.cpu.committedInsts                   100000001                       # Number of instructions committed  
 
-
-> system.cpu.dcache.replacements                 710569                       # number of replacements  
->    
-> system.l2.overall\_accesses::total              712341                       # number of overall (read+write) accesses  
 
 
 **default GHz:**   
