@@ -21,31 +21,31 @@
 
 **default GHz:**   
 
-> **bzip:**   
+**bzip:**   
 >	commited instructions = 100000001 (sim\_insts or system.cpu.committedInsts )  
 > 	L1 dcache block replacements = 710569 (system.cpu.dcache.replacements)  
 >	L2 cache overall accesses = 712341 (system.l2.overall\_accesses::total)     
 >	Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=200996 + system.l2.overall\_hits::total=511345 = 712341
 
-> **hmmer:**  
+**hmmer:**  
 >	commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )  
 > 	L1 dcache block replacements = 65718 (system.cpu.dcache.replacements)  
 >	L2 cache overall accesses = 70563 (system.l2.overall\_accesses::total)     
 >	Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=5487 + system.l2.overall\_hits::total=65076 = 70563
 			 
-> **libm:**  
+**libm:**  
 >	commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )  
 >	L1 dcache block replacements = 1486955 (system.cpu.dcache.replacements)  
 >	L2 cache overall accesses = 1488538 (system.l2.overall\_accesses::total)     
 >	Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=1488455 + system.l2.overall\_hits::total=83 = 1488538
 			
-> **mcf:**  
+**mcf:**  
 >	 commited instructions = 100000001  (sim\_insts or system.cpu.committedInsts )  
 >        L1 dcache block replacements = 54452 (system.cpu.dcache.replacements)  
 >	 L2 cache overall accesses = 724390 (system.l2.overall\_accesses::total)   
 >	 Αν δεν το εδινε τοτε θα το βρισκαμε απο τα: system.l2.overall\_misses::total=39875 + system.l2.overall\_hits::total=684515 = 724390
 		   
-> **sjeng:**  
+**sjeng:**  
 >	commited instructions = 100000000  (sim\_insts or system.cpu.committedInsts )  
 >	 L1 dcache block replacements = 5262377 (system.cpu.dcache.replacements)  
 >	 L2 cache overall accesses = 5264051 (system.l2.overall\_accesses::total)     
@@ -58,35 +58,35 @@
 2. 
 
 **default GHz:**  
-> **bzip:**  
+**bzip:**  
 >	Simulation time = 0.083982 (sim_seconds)
 >	     	CPI = 1.679650 (system.cpu.cpi)
 >	     	L1 dcache overall miss rate = 0.014798 (system.cpu.dcache.overall\_miss\_rate::total)
 >		L1 icache overall miss rate = 0.000077 (system.cpu.icache.overall\_miss\_rate::total)
 >		L2 cache  overall miss rate = 0.282163 (system.l2.overall\_miss\_rate::total)
 			
-> **hmmer:**  
+**hmmer:**  
 >	Simulation time = 0.059396 (sim_seconds)
 >		CPI = 1.187917 (system.cpu.cpi)
 >             	L1 dcache overall miss rate = 0.001637 (system.cpu.dcache.overall\_miss\_rate::total)
 >             	L1 icache overall miss rate = 0.000221 (system.cpu.icache.overall\_miss\_rate::total)
 >             	L2 cache  overall miss rate = 0.077760 (system.l2.overall\_miss\_rate::total)
 			 
-> **libm:**  
+**libm:**  
 >	Simulation time = 0.174671 (sim\_seconds)
 >		CPI = 3.493415 (system.cpu.cpi)
 >             	L1 dcache overall miss rate = 0.060972 (system.cpu.dcache.overall\_miss\_rate::total)
 >             	L1 icache overall miss rate = 0.000094 (system.cpu.icache.overall\_miss\_rate::total)
 >             	L2 cache  overall miss rate = 0.999944 (system.l2.overall\_miss\_rate::total)
 			
-> **mcf:**   
+**mcf:**   
 >	Simulation time = 0.064955 (sim\_seconds)
 >		CPI = 1.299095 (system.cpu.cpi)
 >             	L1 dcache overall miss rate = 0.002108 (system.cpu.dcache.overall\_miss\_rate::total)
 >             	L1 icache overall miss rate = 0.023612 (system.cpu.icache.overall\_miss\_rate::total)
 >            	L2 cache  overall miss rate = 0.055046 (system.l2.overall\_miss\_rate::total)
 			 
-> **sjeng:**  
+**sjeng:**  
 > 	Simulation time = 0.513528 (sim\_seconds)
 >		CPI = 10.270554 (system.cpu.cpi)
 >             	L1 dcache overall miss rate = 0.121831 (system.cpu.dcache.overall\_miss\_rate::total)
@@ -95,7 +95,7 @@
 
 
 Από το spec\_results\_default/**specbzip**/stats.txt βρήκαμε:
-> i)	sim_seconds                                  0.083982                       # Number of seconds simulated  
+> i)	sim_seconds                            &nbsp;0.083982                       # Number of seconds simulated  
 >  
 > ii)	system.cpu.cpi                               1.679650                       # CPI: cycles per instruction  
 >  
@@ -295,7 +295,7 @@ _Η απόδοση αυτής μας της επιλογής για κάθε ben
 Διαφάνειες μαθήματος από το elearning  
 
 ## Λίγες σκέψεις για την εργασία:
-Η συγκεκριμένη εργασία μας φάνηκε πιο ενδιαφέρουσα από την προηγούμενη. Χρειάστηκε να διαβάσουμε για να απαντήσουμε στα ερωτήματα κι πλέων νοιώθουμε ότι έχουμε κατανοήσει καλύτερα το αντικείμενο του μαθήματος. Παρ' όλ' αυτά, μας δυσκόλεψε ιδιαίτερα η εύρεση της συνάρτησης και δεν είμαστε σίγουροι αν η λογική που ακολουθήσαμε ήταν σωστή, ούτε πώς θα μάθουμε ποιά είναι η "σωστή". 
+Η συγκεκριμένη εργασία μας φάνηκε πιο ενδιαφέρουσα από την προηγούμενη. Χρειάστηκε να διαβάσουμε για να απαντήσουμε στα ερωτήματα κι πλέων νοιώθουμε ότι έχουμε κατανοήσει καλύτερα το αντικείμενο του μαθήματος. Παρ' όλ' αυτά, μας δυσκόλεψε ιδιαίτερα η εύρεση της συνάρτησης και δεν είμαστε σίγουροι αν η λογική που ακολουθήσαμε ήταν σωστή, ούτε πώς θα μάθουμε ποιά είναι η "σωστή".   
 Επίσης, η εργασία ήταν αρκετά χρονοβόρα, σε σημείο που δεν έμεινε αρκετός χρόνος για άλλη εργασία σε άλλο μάθημα που είχε ίδια προθεσμία.
 
 
