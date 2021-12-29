@@ -1,4 +1,4 @@
-### Computer Architecture - Second Project
+#### Computer Architecture - Second Project
 
 
 **Βήμα 1ο:**
@@ -95,7 +95,7 @@
 
 
 Από το spec\_results\_default/**specbzip**/stats.txt βρήκαμε:
-> i)	sim_seconds                            &nbsp;0.083982                       # Number of seconds simulated  
+> i)	sim_seconds&nbsp;&nbsp;&nbsp;&nbsp;0.083982&nbsp;&nbsp;&nbsp;&nbsp;# Number of seconds simulated  
 >  
 > ii)	system.cpu.cpi                               1.679650                       # CPI: cycles per instruction  
 >  
