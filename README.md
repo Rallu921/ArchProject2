@@ -1,4 +1,4 @@
-#### Computer Architecture - Second Project
+## Computer Architecture - Second Project
 
 
 **Βήμα 1ο:**
@@ -11,12 +11,12 @@
 Τα committed instructions είναι στην τάξη των 100.000.000. Δεν μπορέσαμε να βρούμε τα  executed instructions, αλλά περιμένουμε ότι θα είναι λιγότερα από τα commited, καθώς με βάση τη θεωρία ο επεξεργαστής εκτελεί speculative instructions χωρίς να είναι σίγουρο ότι αυτές όντως θα εκτελεστούν. 
 
 
-> system.cpu.committedInsts                   100000001                       # Number of instructions committed  
+> system.cpu.committedInsts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100000001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Number of instructions committed  
 > Τα commited instructions δεν είναι ίσα με τα executed instructions, γιατί υπάρχουν και misses.
 
-> system.cpu.dcache.replacements                 710569                       # number of replacements  
+> system.cpu.dcache.replacements&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;710569&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# number of replacements  
 >    
-> system.l2.overall\_accesses::total              712341                       # number of overall (read+write) accesses  
+> system.l2.overall\_accesses::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;712341&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# number of overall (read+write) accesses  
 
 
 **default GHz:**   
@@ -95,67 +95,67 @@
 
 
 Από το spec\_results\_default/**specbzip**/stats.txt βρήκαμε:
-> i)	sim_seconds&nbsp;&nbsp;&nbsp;&nbsp;0.083982&nbsp;&nbsp;&nbsp;&nbsp;# Number of seconds simulated  
+> i)	sim_seconds&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.083982&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Number of seconds simulated  
 >  
-> ii)	system.cpu.cpi                               1.679650                       # CPI: cycles per instruction  
+> ii)	system.cpu.cpi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.679650&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# CPI: cycles per instruction  
 >  
-> iii)	system.cpu.dcache.overall\_miss\_rate::total     0.014798                       # miss rate for overall accesses  
-	system.cpu.icache.overall\_miss\_rate::total     0.000077                       # miss rate for overall accesses  
-	system.l2.overall\_miss\_rate::total           0.282163                       # miss rate for overall accesses  
+> iii)	system.cpu.dcache.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.014798&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
+	system.cpu.icache.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.000077&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
+	system.l2.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.282163&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
   
   
 
 Από το spec\_results\_default/**spechmmer**/stats.txt βρήκαμε:
-> i)	sim_seconds                                  0.059396                       # Number of seconds simulated  
+> i)	sim_seconds&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.059396&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Number of seconds simulated  
 >  
-> ii)	system.cpu.cpi                               1.187917                       # CPI: cycles per instruction  
+> ii)	system.cpu.cpi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.187917&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # CPI: cycles per instruction  
 >  
-> iii)	system.cpu.dcache.overall\_miss\_rate::total     0.001637                       # miss rate for overall accesses  
-	system.cpu.icache.overall\_miss\_rate::total     0.000221                       # miss rate for overall accesses  
-	system.l2.overall\_miss\_rate::total           0.077760                       # miss rate for overall accesses  
+> iii)	system.cpu.dcache.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.001637&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
+	system.cpu.icache.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.000221&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
+	system.l2.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.077760&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
 
 
 
 
 Από το spec\_results\_default/**speclibm**/stats.txt βρήκαμε:
-> i)	sim_seconds                                  0.174671                       # Number of seconds simulated  
+> i)	sim_seconds&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.174671&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Number of seconds simulated  
 >  
-> ii)	system.cpu.cpi                               3.493415                       # CPI: cycles per instruction  
+> ii)	system.cpu.cpi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.493415&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# CPI: cycles per instruction  
 >  
-> iii)	system.cpu.dcache.overall\_miss\_rate::total     0.060972                       # miss rate for overall accesses  
-	system.cpu.icache.overall\_miss\_rate::total     0.000094                       # miss rate for overall accesses  
-	system.l2.overall\_miss\_rate::total           0.999944                       # miss rate for overall accesses  
+> iii)	system.cpu.dcache.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.060972&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
+	system.cpu.icache.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.000094&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
+	system.l2.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.999944&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
 
 
 
 
 Από το spec\_results\_default/**specmcf**/stats.txt βρήκαμε:
-> i)	sim_seconds                                  0.064955                       # Number of seconds simulated  
+> i)	sim_seconds&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.064955&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Number of seconds simulated  
 >  
-> ii)	system.cpu.cpi                               1.299095                       # CPI: cycles per instruction  
+> ii)	system.cpu.cpi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.299095&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# CPI: cycles per instruction  
 >  
-> iii)	system.cpu.dcache.overall\_miss\_rate::total     0.002108                       # miss rate for overall accesses  
-	system.cpu.icache.overall\_miss\_rate::total     0.023612                       # miss rate for overall accesses  
-	system.l2.overall\_miss\_rate::total           0.055046                       # miss rate for overall accesses  
+> iii)	system.cpu.dcache.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.002108&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
+	system.cpu.icache.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.023612&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
+	system.l2.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.055046&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
 
 
 
 
 
 Από το spec\_results\_default/**specsjeng**/stats.txt βρήκαμε:
-> i)	sim_seconds                                  0.513528                       # Number of seconds simulated  
+> i)	sim_seconds&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.513528&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Number of seconds simulated  
 >  
-> ii)	system.cpu.cpi                               10.270554                       # CPI: cycles per instruction  
+> ii)	system.cpu.cpi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.270554 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# CPI: cycles per instruction  
 >  
-> iii)	system.cpu.dcache.overall\_miss\_rate::total     0.121831                       # miss rate for overall accesses  
->	system.cpu.icache.overall\_miss\_rate::total     0.000020                       # miss rate for overall accesses  
->	system.l2.overall\_miss\_rate::total           0.999972                       # miss rate for overall accesses  
+> iii)	system.cpu.dcache.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.121831&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
+>	system.cpu.icache.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.000020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
+>	system.l2.overall\_miss\_rate::total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.999972&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# miss rate for overall accesses  
 
 
 _**Γραφήματα:**_
 
-![sim_seconds](https://github.com/Rallu921/ArchProject2/blob/main/sim_sec.PNG)
-![CPI](https://github.com/Rallu921/ArchProject2/blob/main/cpi.PNG)
+![sim_seconds](https://github.com/Rallu921/ArchProject2/blob/main/sim_sec.PNG)  
+![CPI](https://github.com/Rallu921/ArchProject2/blob/main/cpi.PNG)  
 ![L1d_misses](https://github.com/Rallu921/ArchProject2/blob/main/dmisses.PNG)
 ![L1i_misses](https://github.com/Rallu921/ArchProject2/blob/main/imisses.PNG)
 ![L2_misses](https://github.com/Rallu921/ArchProject2/blob/main/l2misses.PNG)
@@ -167,52 +167,52 @@ _**Γραφήματα:**_
 3. 
 _**bzip**_
 > _Default:_  
-> system.clk\_domain.clock                          1000                       # Clock period in ticks  
-> system.cpu\_clk\_domain.clock                      500                       # Clock period in ticks  
+> system.clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
+> system.cpu\_clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
 >  
 > _1.5GHz:_  
-> system.clk\_domain.clock                          1000                       # Clock period in ticks  
-> system.cpu\_clk\_domain.clock                      667                       # Clock period in ticks  
+> system.clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
+> system.cpu\_clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;667&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
 
 
 _**hmmer**_
 > _Default:_  
-> system.clk\_domain.clock                          1000                       # Clock period in ticks  
-> system.cpu\_clk\_domain.clock                      500                       # Clock period in ticks  
+> system.clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
+> system.cpu\_clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
 >  
 > _1.5GHz:_  
-> system.clk\_domain.clock                          1000                       # Clock period in ticks  
-> system.cpu\_clk\_domain.clock                      667                       # Clock period in ticks  
+> system.clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
+> system.cpu\_clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;667&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
 
 
 _**libm**_
 > _Default:_  
-> system.clk\_domain.clock                          1000                       # Clock period in ticks  
-> system.cpu\_clk\_domain.clock                      500                       # Clock period in ticks  
+> system.clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
+> system.cpu\_clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
 >  
 > _1.5GHz:_  
-> system.clk\_domain.clock                          1000                       # Clock period in ticks  
-> system.cpu\_clk\_domain.clock                      667                       # Clock period in ticks  
+> system.clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
+> system.cpu\_clk\_domain.clock &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;667&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
 
 
 _**mcf**_
 > _Default:_  
-> system.clk\_domain.clock                          1000                       # Clock period in ticks  
-> system.cpu\_clk\_domain.clock                      500                       # Clock period in ticks  
+> system.clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
+> system.cpu\_clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
 >  
 > _1.5GHz:_  
-> system.clk\_domain.clock                          1000                       # Clock period in ticks  
-> system.cpu\_clk\_domain.clock                      667                       # Clock period in ticks  
+> system.clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
+> system.cpu\_clk\_domain.clock &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;667&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
 
 
 _**sjeng**_ 
 > _Default:_  
-> system.clk\_domain.clock                          1000                       # Clock period in ticks  
-> system.cpu\_clk\_domain.clock                      500                       # Clock period in ticks  
+> system.clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
+> system.cpu\_clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
 >  
 > _1.5GHz:_  
-> system.clk\_domain.clock                          1000                       # Clock period in ticks  
-> system.cpu\_clk\_domain.clock                      667                       # Clock period in ticks  
+> system.clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
+> system.cpu\_clk\_domain.clock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;667&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Clock period in ticks  
 
 
 
