@@ -1,4 +1,4 @@
-## Computer Architecture - Second Project
+## 2η εργαστηριακή άσκηση
 
 
 **Βήμα 1ο:**
